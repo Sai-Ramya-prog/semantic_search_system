@@ -305,8 +305,4 @@ Avoids recomputing results for semantically similar queries.
 
 # Author
 Sai Ramya
-After Adding README
-Commit it:
-git add README.md
-git commit -m "Added project README"
-git push
+
