@@ -107,34 +107,6 @@ Each document becomes a **384-dimensional vector representation**.
 
 ---
 
-## 3. Vector Database (FAISS)
-
-FAISS is used to store document embeddings and perform fast similarity search.
-
-Benefits:
-
-- efficient nearest neighbor search
-- scalable to large embedding collections
-- optimized for vector retrieval
-
-When a query arrives:
-
-1. query is embedded
-2. FAISS retrieves top similar documents.
-
----
-
-## 4. Dimensionality Reduction (PCA)
-
-Embedding dimension is reduced:384 → 30
-Reason:
-
-- high dimensional vectors make Gaussian Mixture unstable
-- PCA improves clustering performance
-- reduces computational complexity
-
----
-
 ## 5. Fuzzy Clustering
 
 Documents are clustered using **Gaussian Mixture Models (GMM)**.
