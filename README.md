@@ -208,7 +208,7 @@ Clears the cache.
 Clone the repository:
 
 
-git clone https://github.com/YOUR_USERNAME/semantic-search-system.git
+git clone https://github.com/Sai-Ramya-prog/semantic-search-system.git
 
 cd semantic-search-system
 
